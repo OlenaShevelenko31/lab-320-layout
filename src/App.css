@@ -1,0 +1,52 @@
+.container{
+    background-image: url(https://img.freepik.com/free-photo/abstract-uv-ultraviolet-light-composition_23-2149243965.jpg?t=st=1716925008~exp=1716928608~hmac=ef2c681536f133309975ee0e2192f142c7dfda55d5fd995e47d6ae1d5dea8ff9&w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(130, 185, 123);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.homePage, .employeePage{
+    background-color: rgb(242, 169, 73);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 100px;
+    width: 25%;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 10px;
+}  
+.homePage > h1{
+    align-self: center;
+    margin: 5px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header > h3{
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+}
+.searchBar > input{
+    width: 50%;
+    margin: 5px;
+}
+.employeeList{
+    border: 1px solid black;
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    margin: 5px;
+}
+.employeeList > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.employeeList > div > h4,p {
+    margin: 5px;
+}
