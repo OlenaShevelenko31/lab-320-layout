@@ -1,5 +1,5 @@
 import './App.css'
-import EmployeeList from './components/EmployeeList'
+import Employee from './components/Employees'
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 
@@ -17,11 +17,7 @@ function App() {
           <SearchBar/>
 
           <div className='list of workers'>
-            <EmployeeList/>
-            <EmployeeList/>
-            <EmployeeList/>
-            <EmployeeList/>
-            <EmployeeList/>
+          <Employee></Employee>
           </div>
       </div>
 
